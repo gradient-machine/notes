@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on ExampleSite</title>
+    <link>https://examplesite.com/posts/</link>
+    <description>Recent content in Posts on ExampleSite</description>
+    <image>
+      <title>ExampleSite</title>
+      <url>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 14 May 2023 00:04:57 -0400</lastBuildDate><atom:link href="https://examplesite.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Notes on Meta-learning</title>
+      <link>https://examplesite.com/posts/meta-learning/</link>
+      <pubDate>Sun, 14 May 2023 00:04:57 -0400</pubDate>
+      
+      <guid>https://examplesite.com/posts/meta-learning/</guid>
+      <description>Concepts Meta-training Imagine there is a function of which w is the parameter. $$a+b$$
+f(.; w) Consider each source set (corresponding to a task) as an example, including its input and labels. d_source = {d_source_input, d_source_label} We can use the f(d_source; w) to get a value. d_source_label_pred = f(d_source_input; w) However, f(d_source; w) includes a hidden parameter, denoted a, which is the model parameter learned to solve this task (d_source). So, d_source_label_pred = f(d_source_input; a, w) Before we can perform the above prediction, we need first learn a.</description>
+    </item>
+    
+  </channel>
+</rss>
